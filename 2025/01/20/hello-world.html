@@ -1,113 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+extends includes/layout.pug
 
-<head>
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="viggo" />
-  <title>Nakano - </title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <link rel="shortcut icon" href="/nakano.github.io/favicon.ico">
-  
-<link rel="stylesheet" href="/nakano.github.io/css/hclonely.css">
-<link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic.css">
-<link rel="stylesheet" href="/nakano.github.io/css/fonts/linecons/css/linecons.min.css">
-<link rel="stylesheet" href="/nakano.github.io/css/fonts/fontawesome/css/all.min.css">
-<link rel="stylesheet" href="/nakano.github.io/css/bootstrap.min.css">
-<link rel="stylesheet" href="/nakano.github.io/css/xenon-core.min.css">
-<link rel="stylesheet" href="/nakano.github.io/css/xenon-components.min.css">
-<link rel="stylesheet" href="/nakano.github.io/css/xenon-skins.min.css">
-<link rel="stylesheet" href="/nakano.github.io/css/nav.min.css">
+block content
+  #post
+    if top_img === false
+      include includes/header/post-info.pug
 
-  
-<script src="/nakano.github.io/js/jquery-1.11.1.min.js"></script>
+    article#article-container.container.post-content
+      if theme.noticeOutdate.enable && page.noticeOutdate !== false
+        include includes/post/outdate-notice.pug
+      else
+        !=page.content
+    include includes/post/post-copyright.pug
+    .tag_share
+      if (page.tags.length > 0 && theme.post_meta.post.tags)
+        .post-meta__tag-list
+          each item, index in page.tags.data
+            a(href=url_for(item.path)).post-meta__tags #[=item.name]
+      include includes/third-party/share/index.pug
 
-  <script>
-    var userDefinedSearchData = {"custom":false,"thisSearch":"https://www.baidu.com/s?wd=","thisSearchIcon":"url(https://www.baidu.com/favicon.ico)","hotStatus":true,"data":[{"name":"百度","img":"url(https://www.baidu.com/favicon.ico)","url":"https://www.baidu.com/s?wd="}]};
-    var expandAll = false;
-  </script>
-  
-<script src="/nakano.github.io/js/header.js"></script>
+    if theme.reward.enable && theme.reward.QR_code
+      !=partial('includes/post/reward', {}, {cache: true})
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-        
-<script src="/nakano.github.io/js/html5shiv.min.js"></script>
+    //- ad
+    if theme.ad && theme.ad.post
+      .ads-wrap!=theme.ad.post
 
-        
-<script src="/nakano.github.io/js/respond.min.js"></script>
+    if theme.post_pagination
+      include includes/pagination.pug
+    if theme.related_post && theme.related_post.enable
+      != related_posts(page,site.posts)
 
-    <![endif]-->
-  <!-- / FB Open Graph -->
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://mk-mokuai.github.io/2025/01/20/hello-world.html">
-  <meta property="og:title" content="Nakano - ">
-  <meta property="og:description" content="">
-  <meta property="og:site_name" content="Nakano - ">
-  
-  <meta property="og:image" content="/images/webstack_banner_cn.png">
-  
-  <!-- / Twitter Cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Nakano - ">
-  <meta name="twitter:description" content="">
-  
-  <meta name="twitter:image" content="/images/webstack_banner_cn.png">
-  
-  
-  <!-- 直接添加html内容即可 -->
-<!-- 可设置多行 -->
-  
-<meta name="generator" content="Hexo 7.3.0"></head>
-
-</head>
-
-
-
-
-  <footer class="main-footer sticky footer-type-1">
-  <div class="footer-inner">
-    <!-- Add your copyright text here -->
-    <p>
-      
-      &copy; 2020 - 2025
-      <a href="javascript:void(0);"><strong>Nakano mk</strong></a> | Design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Power by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
-    </p>
-    
-    <div class="go-up">
-      <a href="#" rel="go-top">
-        <i class="fas fa-angle-up"></i>
-      </a>
-    </div>
-  </div>
-</footer>
-</div>
-</div>
-
-<script src="/nakano.github.io/js/bootstrap.min.js"></script>
-<script src="/nakano.github.io/js/TweenMax.min.js"></script>
-<script src="/nakano.github.io/js/resizeable.min.js"></script>
-<script src="/nakano.github.io/js/joinable.js"></script>
-<script src="/nakano.github.io/js/xenon-api.min.js"></script>
-<script src="/nakano.github.io/js/xenon-toggles.min.js"></script>
-<script src="/nakano.github.io/js/xenon-custom.min.js"></script>
-
-
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
-
-<script src="/nakano.github.io/js/lozad.min.js"></script>
-
-
-
-  
-  <!-- 直接添加html内容即可 -->
-<!-- 可设置多行 -->
-  
-</body>
-
-</html>
+    if page.comments !== false && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
