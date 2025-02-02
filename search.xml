@@ -4,6 +4,83 @@
   
     
     <entry>
+      <title>NextThingsNext</title>
+      <link href="/2025/02/02/NextThingsNext.html"/>
+      <url>/2025/02/02/NextThingsNext.html</url>
+      
+        <content type="html"><![CDATA[<p>最近要学习、完成的一些事物：</p><h2 id="标准指法练习"><a class="markdownIt-Anchor" href="#标准指法练习"></a> 标准指法练习</h2><h2 id="c-primer-plus-c进阶"><a class="markdownIt-Anchor" href="#c-primer-plus-c进阶"></a> C++ Primer Plus &amp;&amp; C++进阶</h2><h2 id="数据结构"><a class="markdownIt-Anchor" href="#数据结构"></a> 数据结构</h2><h2 id="洛谷题单-题解"><a class="markdownIt-Anchor" href="#洛谷题单-题解"></a> 洛谷题单 &amp;&amp; 题解</h2><h2 id="博客新开的坑"><a class="markdownIt-Anchor" href="#博客新开的坑"></a> 博客新开的坑</h2><hr />]]></content>
+      
+      
+      <categories>
+          
+          <category> ~思想录~ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+            <tag> Math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RainOfLeben_001</title>
+      <link href="/2025/01/29/RainOfLeben-001.html"/>
+      <url>/2025/01/29/RainOfLeben-001.html</url>
+      
+        <content type="html"><![CDATA[<hr />]]></content>
+      
+      
+      <categories>
+          
+          <category> ~思想录~ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 闲谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CppPrimerPlus</title>
+      <link href="/2025/01/29/CppPrimerPlus.html"/>
+      <url>/2025/01/29/CppPrimerPlus.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="c-primer-plus-学习笔记"><a class="markdownIt-Anchor" href="#c-primer-plus-学习笔记"></a> C++ Primer Plus 学习笔记</h1><blockquote><p>先开个坑 后续持续施工~</p></blockquote><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">using</span> namespance std;</span><br><span class="line">cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr />]]></content>
+      
+      
+      <categories>
+          
+          <category> ~思想录~ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>katex_test</title>
       <link href="/2025/01/26/katex-test.html"/>
       <url>/2025/01/26/katex-test.html</url>
