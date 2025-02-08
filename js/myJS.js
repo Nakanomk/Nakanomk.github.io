@@ -50,7 +50,7 @@ function snowCanvas() {
 	/* 添加Dom结点 */
 	var snowcanvas = document.createElement("canvas");
 	snowcanvas.id = "snowfall";
-	snowcanvas.width = window.innerWidth;
+	snowcanvas.width = window.innerWidth - 20;
 	snowcanvas.height = document.body.clientHeight;
 	snowcanvas.setAttribute("style", "position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;");
 	document.getElementsByTagName("body")[0].appendChild(snowcanvas);
@@ -58,7 +58,7 @@ function snowCanvas() {
 	this.ctx = snowcanvas.getContext("2d");
 	/* 窗口大小改变的处理 */
 	window.onresize = function () {
-		snowcanvas.width = window.innerWidth;
+		snowcanvas.width = window.innerWidth - 20;
 		/* snowcanvas.height = window.innerHeight */
 	}
 }
