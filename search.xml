@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>HowToUseSteamCommunity</title>
+      <link href="/2025/02/09/HowToUseSteamCommunity.html"/>
+      <url>/2025/02/09/HowToUseSteamCommunity.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Steam-社区-amp-amp-其他服务型网站访问指南"><a href="#Steam-社区-amp-amp-其他服务型网站访问指南" class="headerlink" title="Steam 社区 &amp;&amp; 其他服务型网站访问指南"></a>Steam 社区 &amp;&amp; 其他服务型网站访问指南</h1><div class="note info modern"><p>欲访问Steam之外的其他服务，请直接遵循  $ \mathscr{B} $ <em>UsbEAm Hosts Editor</em> 部分操作</p></div><h2 id="mathscr-A-Steam-访问-Steamcommunity"><a href="#mathscr-A-Steam-访问-Steamcommunity" class="headerlink" title="$ \mathscr{A} $ Steam 访问 // Steamcommunity"></a>$ \mathscr{A} $ Steam 访问 // Steamcommunity</h2><h3 id="Steamcommunity-介绍"><a href="#Steamcommunity-介绍" class="headerlink" title="Steamcommunity 介绍"></a>Steamcommunity 介绍</h3><p>Steamcommunity 是由羽翼城大佬开发的代理软件，可以用来解决许多网站的访问问题</p><p>详情请戳 $ \Rightarrow $ <strong><a href="https://www.dogfight360.com/blog/">羽翼城|Dogfight360佬的个人博客</a></strong></p><h3 id="Steamcommunity-下载"><a href="#Steamcommunity-下载" class="headerlink" title="Steamcommunity 下载"></a>Steamcommunity 下载</h3><h4 id="Step-I-下载压缩包"><a href="#Step-I-下载压缩包" class="headerlink" title="Step I 下载压缩包"></a><em>Step I</em> 下载压缩包</h4><p>请戳 $ \Rightarrow $ <a href="https://www.dogfight360.com/blog/wp-content/uploads/2024/11/steamcommunity_302_V12.1.46_%E8%A7%A3%E5%8E%8B%E5%AF%86%E7%A0%81dogfight360.zip">Steamcommunity软件下载</a></p><div class="note info modern"><p>如果你的浏览器弹出了保存文件的窗口，请将它保存到一个C盘以外的文件夹内，例如D:\Steamcommunity</p></div><h4 id="Step-II-解压压缩包"><a href="#Step-II-解压压缩包" class="headerlink" title="Step II 解压压缩包"></a><em>Step II</em> 解压压缩包</h4><p>如果你不知道压缩包是什么，它是一类以 <code>.zip</code> <code>.rar</code> <code>.7z</code> 等字段结尾的文件，是对原始文件进行压缩操作之后得到的文件，在使用之前需要对它们进行解压操作。</p><p>欲进行解压操作，你的电脑首先需要一个解压缩软件，如果你的电脑上没有解压缩软件，那么我推荐安装 <strong>BandiZip</strong>。win10以上的电脑可以直接在微软商店里进行安装。</p><p>安装好解压软件，一个比较简单的做法是，<strong>找到你刚刚下载到电脑上的文件</strong>（如果你的浏览器下载的时候没有提示下载位置，那么它就在你的浏览器下载器指示的位置；如果你刚刚选定了一个文件夹，那么它就在刚刚你选定的文件夹里）</p><p>之后 <strong>双击打开你下载的文件</strong> ，这时会打开你的解压缩软件，之后鼠标左键选中里面的 <code>steamcommunity_302</code> 文件夹。之后同时按下你键盘上的 <code>Ctrl</code> 和 <code>C</code> 键，即可复制该文件夹。</p><p>下一步，你的软件会弹出一个密码输入框，提示你该文件被密码保护。</p><p>请在密码输入框内输入 <strong>dogfight360</strong> ，注意大小写都不能错，不必在意我的粗体表示。</p><p><strong>恭喜你</strong> 这个软件就已经被复制下来了。做到这一步你已经离成功下载这个软件不远了。假如它没有被复制上，请你再 <code>Ctrl+C</code> 一次（不同解压软件之间有点差异）</p><p>现在回到你压缩包所在的文件夹，同时按下你键盘上的 <code>Ctrl</code> 键和 <code>V</code> 键，如果你看到文件夹里出现了刚才的 <code>steamcommunity_302</code> 文件夹，那么恭喜你！你做到了！</p><h3 id="Steamcommunity-配置"><a href="#Steamcommunity-配置" class="headerlink" title="Steamcommunity 配置"></a>Steamcommunity 配置</h3><div class="note info modern"><p>以下操作请左键双击打开 <code>steamcommunity_302</code> 文件夹进行</p></div><h4 id="Step-I-初始化-Steamcommunity"><a href="#Step-I-初始化-Steamcommunity" class="headerlink" title="Step I 初始化 Steamcommunity"></a><em>Step I</em> 初始化 Steamcommunity</h4><p>右键文件夹里红色图标的 <code>steamcommunity302.exe</code> （你的电脑里可能不会显示.exe）</p><p>选择 <strong>以管理员身份运行</strong> ，并且按照指示或者窗口要求一路确认确认确认</p><p>假如软件突然关闭了，并且你的文件夹里多出了很多文件，那么恭喜你，你的 Steamcommunity 初始化成功了！</p><h4 id="Step-II-运行-Steamcommunity"><a href="#Step-II-运行-Steamcommunity" class="headerlink" title="Step II 运行 Steamcommunity"></a><em>Step II</em> 运行 Steamcommunity</h4><p><strong>恭喜你来到这一步</strong></p><p>首先，左键双击 <code>steamcommunity.exe</code> （就是刚才那个软件）</p><p>接下来，点击弹出窗口中的 <code>设置</code> <strong>推荐</strong>勾选左上角的 <code>开机自动运行</code> <code>自动启动服务</code></p><p>接着在本地反代服务选择中<strong>推荐</strong>勾选除了 <code>微软商店/XBOX图片修复</code> 以外的所有复选框</p><p>之后点击右手边的 <code>保存设置</code> <strong>现在，你的 Steamcommunity 已经准备就绪了！</strong></p><h4 id="Step-III-正式开始使用你的-Steamcommunity"><a href="#Step-III-正式开始使用你的-Steamcommunity" class="headerlink" title="Step III 正式开始使用你的 Steamcommunity"></a><em>Step III</em> 正式开始使用你的 Steamcommunity</h4><p>再次左键双击打开 <code>steamcommunity.exe</code> </p><p>这时你的软件会自动开始工作并且过一会隐藏在后台。你已经可以正常访问 Steam 上的所有功能了！</p><h2 id="mathscr-B-UsbEAm-Hosts-Editor-部分操作"><a href="#mathscr-B-UsbEAm-Hosts-Editor-部分操作" class="headerlink" title="$ \mathscr{B} $ UsbEAm Hosts Editor 部分操作"></a>$ \mathscr{B} $ UsbEAm Hosts Editor 部分操作</h2><div class="note info modern"><p>这个懒狗博主没准暂时不想更新这个，以后再来吧。</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> ~万灵集~ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Tech </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HustLuoguLanguageI</title>
       <link href="/2025/02/08/HustLuoguLanguageI.html"/>
       <url>/2025/02/08/HustLuoguLanguageI.html</url>
