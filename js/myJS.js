@@ -52,6 +52,9 @@ function snowCanvas() {
 	snowcanvas.id = "snowfall";
 	snowcanvas.width = document.body.clientWidth;
 	snowcanvas.height = document.body.clientHeight;
+		if(snowcanvas.height > 6000) {
+			snowcanvas.height = 6000;
+		}
 	snowcanvas.setAttribute("style", "position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;");
 	document.getElementsByTagName("body")[0].appendChild(snowcanvas);
 	this.canvas = snowcanvas;
