@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>Weekly_003</title>
+      <link href="/2025/08/11/Weekly-003.html"/>
+      <url>/2025/08/11/Weekly-003.html</url>
+      
+        <content type="html"><![CDATA[<p>过去的几周里没有进行足够有价值的活动，因此也没想来更新博客。虽然是自己给自己找的借口，但是我认为假如逼着自己在博客和社媒这种平台保持更新反而会让自己活得越来越没价值。</p><p>做了有价值的工作，完成想要完成的事情，发篇文章总结一下才比较自然。文章是果。</p><h1 id="过去几个星期所做的事情"><a href="#过去几个星期所做的事情" class="headerlink" title="过去几个星期所做的事情"></a>过去几个星期所做的事情</h1><p>7月初搬宿舍，经过了很多努力再加上我爸妈的帮助也算是成功把所有的东西都搬到了两公里外的新宿舍，可喜可贺。</p><p>七月份是十分混乱的一个月，一来练车之类的事情占去了不少时间，完美地打乱了我的生活节奏，二来自己想做的事情太多，时间上却没有一个很好的规划；三来回家之后的生活还没有从老模式里开发出新的状态出来，办事几乎没有任何动力，家里也没有学习进步的氛围，父母每天都忙累了回家摆烂。我在家里也没有自己的房间，限制很多。</p><p>以下是之后要产出的内容：</p><ul><li>RIME 输入法</li><li>天大游记</li><li>C++ Primer Plus 读书笔记</li><li>大学物理笔记</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> ~思想录~ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 闲谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>idea_learn</title>
+      <link href="/2025/07/03/idea-learn.html"/>
+      <url>/2025/07/03/idea-learn.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>感谢冷喵大大的邀请让我能够 push 自己去学习如何修改 mc 的插件，并且逐步了解 java。</p><p>本篇笔记主要记录这个过程中的诸多艰难险阻，希望自己补药忘记这个过程。</p><h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>刚刚从 <a href="https://www.jetbrains.com/idea/">IDEA 官方网站</a> 上下载了 IDEA IDE， 并且进行了安装。</p><p>并且经由冷喵大大介绍，我的第一个任务是帮助参与修改 nascraft</p><p>刚刚发现 IDEA 可以直接把我 VScode 里面的个人配置全部转移到 IDEA 里面，非常方便捏。</p><p>并且还 refine 了一下学生认证。现在可以正常认证了。</p><p>过会儿准备打开冷喵大大发送的文件看看</p><p>问了冷喵大大项目的主要需求是什么，得知了主要需求是修改 Nascraft 来适配新的游戏版本</p><p>由于我没有 java 开发经验，所以第一时间询问了 Gemini</p><p>并且由于 IDEA 的推荐，目前下载了一个非官方的开发插件。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ~万灵册~ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Weekly_002</title>
       <link href="/2025/06/23/Weekly-002.html"/>
       <url>/2025/06/23/Weekly-002.html</url>
@@ -287,7 +337,7 @@
       <link href="/2025/01/29/CppPrimerPlus.html"/>
       <url>/2025/01/29/CppPrimerPlus.html</url>
       
-        <content type="html"><![CDATA[<h1 id="C-Primer-Plus-学习笔记"><a href="#C-Primer-Plus-学习笔记" class="headerlink" title="C++ Primer Plus 学习笔记"></a>C++ Primer Plus 学习笔记</h1><blockquote><p>先开个坑 后续持续施工~</p></blockquote><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span> </span>&#123;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span></span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>没想到从今年一月份挖的坑直到七月才有时间逐渐填上，隔了半年的时间，目前对于这本书乃至计算机科学本身都有了很大的改观。</p><p>我会从今天开始逐步进行解读，希望最后能够产出一篇比较恰当的资料出来。</p><h1 id="mathcal-Chapter-I-预备"><a href="#mathcal-Chapter-I-预备" class="headerlink" title="$\mathcal{Chapter\ I}$ 预备"></a>$\mathcal{Chapter\ I}$ 预备</h1><ul><li><code>C++</code> 支持的不仅有面向过程编程，还新增加了面向对象编程和泛型编程</li></ul><h1 id="mathcal-Chapter-II-开始学习-C"><a href="#mathcal-Chapter-II-开始学习-C" class="headerlink" title="$\mathcal{Chapter\ II}$ 开始学习 C++"></a>$\mathcal{Chapter\ II}$ 开始学习 C++</h1><p>待续…</p>]]></content>
       
       
       <categories>
